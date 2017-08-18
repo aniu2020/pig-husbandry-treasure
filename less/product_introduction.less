@@ -1,0 +1,83 @@
+@import "common/config";
+//product-introduction
+.product-introduction {
+  overflow: hidden;
+}
+//introduction-com
+.introduction-com {
+  color: @TEXT_COLOR;
+  //introduction-item
+  .introduction-item {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    .item-img {
+      float: left;
+      width: 420px;
+      height: 300px;
+      min-height: 300px;
+      overflow: hidden;
+      border: 1px solid #fff;
+      &:hover {
+        border: 1px solid @MAIN_COLOR;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .introduction-txt {
+      float: left;
+      padding-top: 80px;
+      .introduction-tit {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: @MAIN_COLOR;
+        .tit-explain {
+          display: inline-block;
+          border: 1px dotted @MAIN_COLOR;
+          padding: 5px;
+          font-weight: normal;
+          font-size: 14px;
+          color: #34a56f;
+          margin-bottom: 3px;
+          vertical-align: middle;
+        }
+      }
+      p {
+        text-indent: 24px;
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+  .introduction-com-img-l {
+    .item-img {
+      margin-right: 20px;
+    }
+    .introduction-txt {
+      width: 730px;
+    }
+  }
+
+  .introduction-com-img-r{
+    .item-img {
+      float: right;
+    }
+    .introduction-txt {
+      width: 645px;
+    }
+  }
+
+
+}
+
+.introduction-com{
+  .the-pig-bag{
+
+  }
+  .my-monster-rancher{
+
+  }
+}
+

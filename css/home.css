@@ -1,0 +1,131 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
+.home-slider {
+  margin-top: 90px;
+  min-height: 300px;
+}
+.home-slider .swiper-button-prev,
+.home-slider .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
+}
+.home-slider .swiper-button-prev {
+  left: 50%;
+  margin-left: -595px;
+  background-image: url("../images/home_slider_l.png");
+}
+.home-slider .swiper-button-next {
+  right: 50%;
+  margin-right: -595px;
+  background-image: url("../images/home_slider_r.png");
+}
+.home-slider .swiper-pagination-bullet-active,
+.home-slider .swiper-pagination-bullet {
+  font-size: 13px;
+  background: transparent;
+}
+.home-slider .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin-right: 10px;
+}
+.home-slider .swiper-pagination-bullet-active {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.home-slider .swiper-pagination {
+  width: 1200px;
+  text-align: right;
+  left: 50%;
+  margin-left: -600px;
+}
+.home-slider .swiper-container img {
+  width: 100%;
+}
+.home .home-item {
+  color: #47b182;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.home .home-item .item-hd .hd-txt {
+  display: inline-block;
+  border: 2px solid #47b182;
+  padding: 8px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.home .home-item .item-bd {
+  overflow: hidden;
+}
+.home .home-item .item-bd .item-bd-inner {
+  width: 1230px;
+  overflow: hidden;
+}
+.home .home-item .item-bd .bd-list {
+  float: left;
+  border: 1px solid #EAEAEA;
+  margin-top: 20px;
+}
+.home .home-item .item-bd .bd-list:hover {
+  background-color: #47b182;
+  color: #ffffff;
+  border: 1px solid #47b182;
+}
+.home .index-product-introduction .item-bd .bd-list {
+  width: 588px;
+  margin-right: 20px;
+  color: #666666;
+}
+.home .index-product-introduction .item-bd .bd-list .product-img {
+  min-height: 260px;
+  height: 260px;
+  overflow: hidden;
+}
+.home .index-product-introduction .item-bd .bd-list .product-img img {
+  width: 100%;
+  height: 100%;
+}
+.home .index-product-introduction .item-bd .bd-list .product-info {
+  padding: 40px 20px 60px;
+}
+.home .index-product-introduction .item-bd .bd-list .product-info .product-tit {
+  font-size: 18px;
+  padding-bottom: 10px;
+  max-width: 90%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.home .index-product-introduction .item-bd .bd-list .product-info .product-explain {
+  line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 35px;
+}
+.home .index-product-introduction .item-bd .bd-list .look-more {
+  margin-top: 30px;
+  border: 1px solid #EAEAEA;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.home .partner .item-bd .bd-list {
+  width: 280px;
+  margin-right: 24px;
+  min-height: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+.home .partner .item-bd .bd-list img {
+  width: 100%;
+  height: 100%;
+}
+.home .partner .item-bd .bd-list:hover {
+  transition: all .3s;
+}

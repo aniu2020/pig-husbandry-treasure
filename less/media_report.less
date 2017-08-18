@@ -1,0 +1,63 @@
+@import "common/config";
+//media-report
+.media-report {
+
+  .report-item {
+    display: block;
+    overflow: hidden;
+    color: @TEXT_COLOR;
+    margin: 40px 0;
+    .item-img {
+      float: left;
+      width: 300px;
+      height: 150px;
+      min-height: 150px;
+      margin-right: 20px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .item-info{
+      .info-hd{
+        .info-hd-tit{
+          font-size: 20px;
+          padding: 20px 0 15px 0;
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          -ms-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+          &:hover{
+            color: @MAIN_COLOR;
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            transform: scale(1.05);
+            -ms-transform: scale(1.05);
+          }
+        }
+        .tit-explain{
+          font-size: 14px;
+          span{
+            color: #999999;
+            display: inline-block;
+            margin-right: 70px;
+          }
+        }
+      }
+      .info-bd{
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        max-height: 50px;
+      }
+    }
+  }
+
+}

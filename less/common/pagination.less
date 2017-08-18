@@ -1,0 +1,88 @@
+//pagination (页码)
+.pagination {
+  text-align: center;
+  margin-top: 60px;
+  color: #999;
+  .pagination-bd {
+    font-size: 14px;
+    display: inline-block;
+    line-height: 3;
+    .page-numbers {
+      display: inline-block;
+      border-radius: 50%;
+      background-color: #fff;
+      padding: 0 17px;
+      margin-right: 8px;
+      text-decoration: none;
+      color: #ababab;
+      border: 1px solid #ECECEC;
+      &:hover {
+        color: #fff;
+        background-color: #FF2F40;
+        border: 1px solid #FF2F40;
+        -webkit-transition: .5s ease;
+        -moz-transition: .5s ease;
+        -o-transition: .5s ease;
+        -ms-transition: .5s ease;
+        transition: .5s ease;
+      }
+    }
+    /*padding:0
+       10; 0为了使ie6 7 文本水平对齐*/
+    .current {
+      background-color: #FF2F40;
+      border-color: #FF2F40;
+      color: #ffffff;
+      //&:hover {
+      //  text-decoration: underline;
+      //}
+    }
+    .paging-ellipsis {
+      font-family: tahoma;
+      color: #C7C7C7;
+      margin-right: 8px;
+    }
+    form {
+      display: inline-block;
+      *zoom: 1;
+      *display: inline;
+      .pagination-pageNum {
+        height: 29px;
+        width: 50px;
+        border: 1px solid #ECECEC;
+        padding: 3px;
+        margin: 0 2px;
+        *vertical-align: middle;
+        outline: none;
+        color: #6d6d6d;
+      }
+      /*vertical-align:middle确保ie6-7水平对齐*/
+    }
+    .pagination-goto {
+      height: 40px;
+      padding: 0 38px;
+      border: 1px solid #ECECEC;
+      color: #ABABAB;
+      background-color: #fff;
+      vertical-align: middle;
+      border-radius: 20px;
+      margin-left: 5px;
+      font-size: 15px;
+      &:hover {
+        color: #ff2f40;
+        cursor: pointer;
+      }
+    }
+    .prev, .next {
+      padding: 0 40px;
+      font-size: 16px;
+      line-height: 40px;
+      height: 40px;
+      border-radius: 30px;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+}
