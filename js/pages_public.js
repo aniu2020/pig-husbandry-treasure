@@ -201,12 +201,18 @@ $('.J_home-bd-list').on('mouseover', function () {
     }, 500);
 });
 
+$('#J_bottom-tips-close').on('click', function () {
+    var self = $(this);
+    self.parents('.bottom-tips').fadeOut();
+    $('.footer').css({'padding-bottom': '0'})
+})
+
 // common_problem
 
 //弹框
 var $issuePopUp = $('#J_issue-pop-up'),
-$popUpTit =$issuePopUp.find('.pop-up-tit'),
-$popUpContP=$issuePopUp.find('.pop-up-cont').find('p');
+    $popUpTit = $issuePopUp.find('.pop-up-tit'),
+    $popUpContP = $issuePopUp.find('.pop-up-cont').find('p');
 $('.J_issue-pop-up').on('click', function () {
     $issuePopUp.fadeIn();
     var self = $(this);
