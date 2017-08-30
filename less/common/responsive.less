@@ -29,7 +29,7 @@
   .bottom-tips .bottom-tips-inner {
     width: 990px;
     margin-left: -500px;
-    .on-sale{
+    .on-sale {
       top: 10px;
       width: 580px;
       height: 98px;
@@ -137,6 +137,13 @@
     margin-top: 30px;
   }
 
+  .home .home-item .item-hd .hd-txt {
+    //margin: 0 auto;
+    .hd-txt-inner {
+      font-size: 18px;
+    }
+  }
+
   //banner-com
   .banner-com {
     margin-top: 50px;
@@ -187,7 +194,7 @@
     margin-left: 6px;
   }
 
-  .bottom-tips .bottom-tips-close{
+  .bottom-tips .bottom-tips-close {
     top: 6px;
     right: 6px;
     width: 20px;
@@ -211,6 +218,12 @@
       width: 750px;
     }
   }
+  .home .index-product-introduction .item-hd {
+    .hd-txt {
+      background-color: #fff;
+      width: 212px;
+    }
+  }
   .home .index-product-introduction .item-bd .bd-list {
     width: 363px;
   }
@@ -225,6 +238,12 @@
   }
   .home .home-item .item-bd .bd-list {
     margin-top: 15px;
+  }
+  .home .partner .item-hd {
+    .hd-txt {
+      background-color: #fff;
+      width: 194px;
+    }
   }
   .home .partner .item-bd .bd-list {
     margin-right: 15px;
@@ -380,10 +399,10 @@
       right: 8px;
       font-size: 12px;
     }
-    .swiper-pagination-bullet-active, .home-slider .swiper-pagination-bullet{
+    .swiper-pagination-bullet-active, .home-slider .swiper-pagination-bullet {
       font-size: 12px;
     }
-    .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
+    .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
       margin-right: 6px;
     }
   }
@@ -392,9 +411,11 @@
     .home-item {
       margin-top: 15px;
       .item-hd {
-        padding: 0 2.5%;
+        padding: 20px;
+        //padding: 0 2.5%;
         .hd-txt {
-          font-size: 16px;
+          //background-color: #fff;
+          //width: 212px;
         }
       }
       .item-bd .item-bd-inner {
@@ -402,6 +423,14 @@
       }
     }
     //index-product-introduction
+    .index-product-introduction {
+      .item-hd {
+        .hd-txt {
+          background-color: #fff;
+          width: 212px;
+        }
+      }
+    }
     .index-product-introduction .item-bd {
       .item-bd-inner {
         width: 100%;
@@ -414,7 +443,7 @@
         float: none;
         .product-info {
           padding: 15px 12px 15px;
-          .product-tit{
+          .product-tit {
             padding-top: 5px;
           }
 
@@ -426,6 +455,14 @@
       }
     }
     //partner
+    .partner {
+      .item-hd {
+        .hd-txt {
+          background-color: #fff;
+          width: 194px;
+        }
+      }
+    }
     .partner .item-bd .bd-list {
       width: 46%;
       margin-left: 2%;
