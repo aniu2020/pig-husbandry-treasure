@@ -8,8 +8,16 @@
     .header-nav {
       margin-right: -20px;
       a {
-        padding: 0 20px;
+        padding: 0 12px;
+        &:before {
+          padding: 0 10px;
+        }
       }
+    }
+    .logo a {
+      width: 250px;
+      height: 45px;
+      background-size: 250px 45px;
     }
   }
   //web-main
@@ -30,10 +38,10 @@
     width: 990px;
     margin-left: -500px;
     .on-sale {
-      top: 10px;
-      width: 580px;
-      height: 98px;
-      background-size: 580px 98px;
+      bottom: 48px;
+      width: 700px;
+      height: 74px;
+      background-size: 700px 74px;
     }
   }
 
@@ -46,6 +54,10 @@
   }
   .home .partner .item-bd .bd-list {
     width: 228px;
+  }
+  .home .index-product-introduction .item-bd .bd-list .product-img {
+    min-height: auto;
+    height: auto;
   }
 
   .home-slider {
@@ -105,6 +117,28 @@
     }
   }
 
+  //media-report-detail
+  .media-report-detail {
+    margin-bottom: 12px;
+  }
+  .media-report-detail .detail-tit .detail-tit-inner .tit-hd {
+    min-width: auto;
+  }
+  .media-report-detail .detail-tit .detail-tit-inner .tit-ft {
+    margin-top: 12px;
+    text-align: left;
+    padding: 0;
+    span {
+      width: 100%;
+      display: block;
+    }
+
+    .ft-r {
+      float: left;
+      margin-top: 6px;
+    }
+  }
+
 }
 
 @media (max-width: 1255px) {
@@ -126,14 +160,14 @@
   .header .header-inner .header-nav {
     margin-right: -18px;
     a {
-      padding: 0 17px;
+      padding: 0 10px;
       font-size: 16px;
     }
   }
   .header .header-inner .logo a {
-    width: 96px;
-    height: 30px;
-    background-size: 96px 30px;
+    width: 200px;
+    height: 36px;
+    background-size: 200px 36px;
     margin-top: 30px;
   }
 
@@ -172,17 +206,19 @@
     margin-left: -380px;
   }
   .bottom-tips .bottom-tips-inner .on-sale {
-    width: 450px;
-    height: 76px;
-    background-size: 450px 76px;
-    left: 100px;
-    top: 25px;
+    width: 520px;
+    height: 55px;
+    background-size: 520px 55px;
+    bottom: 50px;
+  }
+  .bottom-tips .bottom-tips-inner .two-dimension-code {
+    bottom: 52px;
   }
 
   .bottom-tips .bottom-tips-inner .logo {
-    width: 96px;
-    height: 30px;
-    background-size: 96px 30px;
+    width: 120px;
+    height: 22px;
+    background-size: 120px 22px;
     margin-top: 25px;
   }
   .bottom-tips .bottom-tips-inner .two-dimension-code .code-item .code-img {
@@ -282,6 +318,34 @@
   .common-problem .problem-item .item-info .item-info-tit {
     line-height: 28px;
   }
+
+  //media-report-detail
+  .media-report-detail {
+    margin-top: 0;
+  }
+  .media-report-detail .detail-tit .detail-tit-inner .tit-hd {
+    margin: 0;
+    width: 90%;
+    text-align: left;
+    line-height: 24px;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .media-report-detail .detail-bd {
+    font-size: 13px;
+    line-height: 28px;
+    padding-top: 30px;
+    p {
+      padding-bottom: 15px;
+      img {
+        width: 100%;
+      }
+    }
+
+  }
+
 }
 
 @media (max-width: 1009px) {
@@ -301,9 +365,9 @@
       display: none;
     }
     .logo a {
-      width: 70px;
-      height: 20px;
-      background-size: 70px 20px;
+      width: 120px;
+      height: 22px;
+      background-size: 120px 22px;
       margin-top: 12px;
       margin-left: 12px;
     }
@@ -333,7 +397,7 @@
 
   //footer
   .footer {
-    padding-bottom: 60px;
+    padding-bottom: 45px;
     .footer-bd {
       box-sizing: border-box;
       padding: 12px;
@@ -365,7 +429,7 @@
 
   //bottom-tips
   .bottom-tips {
-    height: 60px;
+    height: 46px;
     .bottom-tips-inner {
       width: 100%;
       margin-left: 0;
@@ -374,11 +438,11 @@
         display: none;
       }
       .on-sale {
-        width: 220px;
-        height: 38px;
-        background-size: 220px 38px;
-        left: 30px;
-        top: 12px;
+        width: 300px;
+        height: 32px;
+        background-size: 300px 32px;
+        left: 15px;
+        top: 15px;
       }
       .two-dimension-code {
         display: none;
@@ -567,6 +631,10 @@
     }
 
   }
+  .introduction-com .introduction-item .item-img {
+    height: auto;
+    min-height: auto;
+  }
 
   //common-problem
   .common-problem {
@@ -587,8 +655,12 @@
         font-size: 18px;
         padding: 0 0 10px 0;
       }
+      .item-info .item-info-cont a{
+        font-size: 13px;
+      }
     }
   }
+
 
   .issue-pop-up .pop-up-bd {
     width: 92%;
