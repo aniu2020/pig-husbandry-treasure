@@ -336,6 +336,12 @@ body {
 .footer-bd .footer-hd-l .company-explain {
   font-size: 14px;
 }
+.footer-bd .footer-hd-l .company-explain a {
+  color: #ffffff;
+}
+.footer-bd .footer-hd-l .company-explain a:hover {
+  text-decoration: underline;
+}
 .footer-bd .footer-hd-r {
   float: left;
 }
