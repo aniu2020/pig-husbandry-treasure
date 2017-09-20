@@ -6,7 +6,15 @@
     margin-right: -20px;
   }
   .header .header-inner .header-nav a {
-    padding: 0 20px;
+    padding: 0 12px;
+  }
+  .header .header-inner .header-nav a:before {
+    padding: 0 10px;
+  }
+  .header .header-inner .logo a {
+    width: 250px;
+    height: 45px;
+    background-size: 250px 45px;
   }
   .web-main {
     width: 990px;
@@ -22,10 +30,10 @@
     margin-left: -500px;
   }
   .bottom-tips .bottom-tips-inner .on-sale {
-    top: 10px;
-    width: 580px;
-    height: 98px;
-    background-size: 580px 98px;
+    bottom: 48px;
+    width: 700px;
+    height: 74px;
+    background-size: 700px 74px;
   }
   .home .home-item {
     margin-top: 25px;
@@ -35,6 +43,10 @@
   }
   .home .partner .item-bd .bd-list {
     width: 228px;
+  }
+  .home .index-product-introduction .item-bd .bd-list .product-img {
+    min-height: auto;
+    height: auto;
   }
   .home-slider {
     min-height: 220px;
@@ -84,6 +96,25 @@
   .media-report .report-item {
     margin: 25px 0;
   }
+  .media-report-detail {
+    margin-bottom: 12px;
+  }
+  .media-report-detail .detail-tit .detail-tit-inner .tit-hd {
+    min-width: auto;
+  }
+  .media-report-detail .detail-tit .detail-tit-inner .tit-ft {
+    margin-top: 12px;
+    text-align: left;
+    padding: 0;
+  }
+  .media-report-detail .detail-tit .detail-tit-inner .tit-ft span {
+    width: 100%;
+    display: block;
+  }
+  .media-report-detail .detail-tit .detail-tit-inner .tit-ft .ft-r {
+    float: left;
+    margin-top: 6px;
+  }
 }
 .w990 .header .header-inner {
   width: 990px;
@@ -92,7 +123,15 @@
   margin-right: -20px;
 }
 .w990 .header .header-inner .header-nav a {
-  padding: 0 20px;
+  padding: 0 12px;
+}
+.w990 .header .header-inner .header-nav a:before {
+  padding: 0 10px;
+}
+.w990 .header .header-inner .logo a {
+  width: 250px;
+  height: 45px;
+  background-size: 250px 45px;
 }
 .w990 .web-main {
   width: 990px;
@@ -108,10 +147,10 @@
   margin-left: -500px;
 }
 .w990 .bottom-tips .bottom-tips-inner .on-sale {
-  top: 10px;
-  width: 580px;
-  height: 98px;
-  background-size: 580px 98px;
+  bottom: 48px;
+  width: 700px;
+  height: 74px;
+  background-size: 700px 74px;
 }
 .w990 .home .home-item {
   margin-top: 25px;
@@ -121,6 +160,10 @@
 }
 .w990 .home .partner .item-bd .bd-list {
   width: 228px;
+}
+.w990 .home .index-product-introduction .item-bd .bd-list .product-img {
+  min-height: auto;
+  height: auto;
 }
 .w990 .home-slider {
   min-height: 220px;
@@ -170,6 +213,25 @@
 .w990 .media-report .report-item {
   margin: 25px 0;
 }
+.w990 .media-report-detail {
+  margin-bottom: 12px;
+}
+.w990 .media-report-detail .detail-tit .detail-tit-inner .tit-hd {
+  min-width: auto;
+}
+.w990 .media-report-detail .detail-tit .detail-tit-inner .tit-ft {
+  margin-top: 12px;
+  text-align: left;
+  padding: 0;
+}
+.w990 .media-report-detail .detail-tit .detail-tit-inner .tit-ft span {
+  width: 100%;
+  display: block;
+}
+.w990 .media-report-detail .detail-tit .detail-tit-inner .tit-ft .ft-r {
+  float: left;
+  margin-top: 6px;
+}
 @media (max-width: 1009px) {
   .header .header-inner {
     width: 750px;
@@ -180,14 +242,17 @@
     margin-right: -18px;
   }
   .header .header-inner .header-nav a {
-    padding: 0 17px;
+    padding: 0 10px;
     font-size: 16px;
   }
   .header .header-inner .logo a {
-    width: 96px;
-    height: 30px;
-    background-size: 96px 30px;
+    width: 200px;
+    height: 36px;
+    background-size: 200px 36px;
     margin-top: 30px;
+  }
+  .home .home-item .item-hd .hd-txt .hd-txt-inner {
+    font-size: 18px;
   }
   .banner-com {
     margin-top: 50px;
@@ -209,16 +274,18 @@
     margin-left: -380px;
   }
   .bottom-tips .bottom-tips-inner .on-sale {
-    width: 450px;
-    height: 76px;
-    background-size: 450px 76px;
-    left: 100px;
-    top: 25px;
+    width: 520px;
+    height: 55px;
+    background-size: 520px 55px;
+    bottom: 50px;
+  }
+  .bottom-tips .bottom-tips-inner .two-dimension-code {
+    bottom: 52px;
   }
   .bottom-tips .bottom-tips-inner .logo {
-    width: 96px;
-    height: 30px;
-    background-size: 96px 30px;
+    width: 120px;
+    height: 22px;
+    background-size: 120px 22px;
     margin-top: 25px;
   }
   .bottom-tips .bottom-tips-inner .two-dimension-code .code-item .code-img {
@@ -251,6 +318,10 @@
   .home-slider .swiper-pagination {
     width: 750px;
   }
+  .home .index-product-introduction .item-hd .hd-txt {
+    background-color: #fff;
+    width: 212px;
+  }
   .home .index-product-introduction .item-bd .bd-list {
     width: 363px;
   }
@@ -265,6 +336,10 @@
   }
   .home .home-item .item-bd .bd-list {
     margin-top: 15px;
+  }
+  .home .partner .item-hd .hd-txt {
+    background-color: #fff;
+    width: 194px;
   }
   .home .partner .item-bd .bd-list {
     margin-right: 15px;
@@ -296,6 +371,30 @@
   .common-problem .problem-item .item-info .item-info-tit {
     line-height: 28px;
   }
+  .media-report-detail {
+    margin-top: 0;
+  }
+  .media-report-detail .detail-tit .detail-tit-inner .tit-hd {
+    margin: 0;
+    width: 90%;
+    text-align: left;
+    line-height: 24px;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .media-report-detail .detail-bd {
+    font-size: 13px;
+    line-height: 28px;
+    padding-top: 30px;
+  }
+  .media-report-detail .detail-bd p {
+    padding-bottom: 15px;
+  }
+  .media-report-detail .detail-bd p img {
+    width: 100%;
+  }
 }
 .w750 .header .header-inner {
   width: 750px;
@@ -306,14 +405,17 @@
   margin-right: -18px;
 }
 .w750 .header .header-inner .header-nav a {
-  padding: 0 17px;
+  padding: 0 10px;
   font-size: 16px;
 }
 .w750 .header .header-inner .logo a {
-  width: 96px;
-  height: 30px;
-  background-size: 96px 30px;
+  width: 200px;
+  height: 36px;
+  background-size: 200px 36px;
   margin-top: 30px;
+}
+.w750 .home .home-item .item-hd .hd-txt .hd-txt-inner {
+  font-size: 18px;
 }
 .w750 .banner-com {
   margin-top: 50px;
@@ -335,16 +437,18 @@
   margin-left: -380px;
 }
 .w750 .bottom-tips .bottom-tips-inner .on-sale {
-  width: 450px;
-  height: 76px;
-  background-size: 450px 76px;
-  left: 100px;
-  top: 25px;
+  width: 520px;
+  height: 55px;
+  background-size: 520px 55px;
+  bottom: 50px;
+}
+.w750 .bottom-tips .bottom-tips-inner .two-dimension-code {
+  bottom: 52px;
 }
 .w750 .bottom-tips .bottom-tips-inner .logo {
-  width: 96px;
-  height: 30px;
-  background-size: 96px 30px;
+  width: 120px;
+  height: 22px;
+  background-size: 120px 22px;
   margin-top: 25px;
 }
 .w750 .bottom-tips .bottom-tips-inner .two-dimension-code .code-item .code-img {
@@ -377,6 +481,10 @@
 .w750 .home-slider .swiper-pagination {
   width: 750px;
 }
+.w750 .home .index-product-introduction .item-hd .hd-txt {
+  background-color: #fff;
+  width: 212px;
+}
 .w750 .home .index-product-introduction .item-bd .bd-list {
   width: 363px;
 }
@@ -391,6 +499,10 @@
 }
 .w750 .home .home-item .item-bd .bd-list {
   margin-top: 15px;
+}
+.w750 .home .partner .item-hd .hd-txt {
+  background-color: #fff;
+  width: 194px;
 }
 .w750 .home .partner .item-bd .bd-list {
   margin-right: 15px;
@@ -422,6 +534,30 @@
 .w750 .common-problem .problem-item .item-info .item-info-tit {
   line-height: 28px;
 }
+.w750 .media-report-detail {
+  margin-top: 0;
+}
+.w750 .media-report-detail .detail-tit .detail-tit-inner .tit-hd {
+  margin: 0;
+  width: 90%;
+  text-align: left;
+  line-height: 24px;
+  font-size: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.w750 .media-report-detail .detail-bd {
+  font-size: 13px;
+  line-height: 28px;
+  padding-top: 30px;
+}
+.w750 .media-report-detail .detail-bd p {
+  padding-bottom: 15px;
+}
+.w750 .media-report-detail .detail-bd p img {
+  width: 100%;
+}
 @media (max-width: 750px) {
   .header,
   .header .header-inner {
@@ -434,9 +570,9 @@
   }
   .header .logo a,
   .header .header-inner .logo a {
-    width: 70px;
-    height: 20px;
-    background-size: 70px 20px;
+    width: 120px;
+    height: 22px;
+    background-size: 120px 22px;
     margin-top: 12px;
     margin-left: 12px;
   }
@@ -465,7 +601,7 @@
     width: 100%;
   }
   .footer {
-    padding-bottom: 60px;
+    padding-bottom: 45px;
   }
   .footer .footer-bd {
     box-sizing: border-box;
@@ -495,7 +631,7 @@
     display: block;
   }
   .bottom-tips {
-    height: 60px;
+    height: 46px;
   }
   .bottom-tips .bottom-tips-inner {
     width: 100%;
@@ -506,11 +642,11 @@
     display: none;
   }
   .bottom-tips .bottom-tips-inner .on-sale {
-    width: 220px;
-    height: 38px;
-    background-size: 220px 38px;
-    left: 30px;
-    top: 12px;
+    width: 300px;
+    height: 32px;
+    background-size: 300px 32px;
+    left: 15px;
+    top: 15px;
   }
   .bottom-tips .bottom-tips-inner .two-dimension-code {
     display: none;
@@ -539,13 +675,14 @@
     margin-top: 15px;
   }
   .home .home-item .item-hd {
-    padding: 0 2.5%;
-  }
-  .home .home-item .item-hd .hd-txt {
-    font-size: 16px;
+    padding: 20px;
   }
   .home .home-item .item-bd .item-bd-inner {
     width: auto;
+  }
+  .home .index-product-introduction .item-hd .hd-txt {
+    background-color: #fff;
+    width: 212px;
   }
   .home .index-product-introduction .item-bd .item-bd-inner {
     width: 100%;
@@ -566,6 +703,10 @@
   .home .index-product-introduction .item-bd .bd-list .look-more {
     padding: 8px 15px;
     font-size: 14px;
+  }
+  .home .partner .item-hd .hd-txt {
+    background-color: #fff;
+    width: 194px;
   }
   .home .partner .item-bd .bd-list {
     width: 46%;
@@ -654,6 +795,10 @@
     text-indent: 0;
     width: 96%;
   }
+  .introduction-com .introduction-item .item-img {
+    height: auto;
+    min-height: auto;
+  }
   .common-problem {
     margin-top: 12px;
   }
@@ -673,6 +818,9 @@
   .common-problem .problem-item .item-info .item-info-tit {
     font-size: 18px;
     padding: 0 0 10px 0;
+  }
+  .common-problem .problem-item .item-info .item-info-cont a {
+    font-size: 13px;
   }
   .issue-pop-up .pop-up-bd {
     width: 92%;

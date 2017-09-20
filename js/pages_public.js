@@ -91,7 +91,7 @@ PHT.isIe6 = !-[1, undefined] && !window.XMLHttpRequest;//加了个undefined 修�
             }
 
             if ($(W).scrollTop() > $(document.body).height() - $('.footer').height() - $(window).height()) {
-                $fixedObj.css('bottom', '410px');
+                $fixedObj.css('bottom', '340px');
             } else {
                 $fixedObj.css('bottom', '205px');
 
